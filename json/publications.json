@@ -1,0 +1,82 @@
+[
+  {
+    "section": "journals",
+    "template": "<h2>{title}</h2><ol reversed>{journals}</ol>",
+    "data": {
+      "title": "Journals",
+      "journals": {
+        "template": "<li>{authors}, <b>{title}</b>. {reference}. <a href=\"https://hal.science/{hal}\" class=\"badge badge text-bg-secondary\">hal</a> <a href=\"data:application/octet-stream,{bibtex}\" class=\"badge badge text-bg-secondary\" download=\"{id}.bib\">bibtex</a> <a href=\"{code}\" class=\"badge badge text-bg-secondary {codevisible}\">code</a></li>",
+        "data": {
+          "id": [],
+          "authors": [],
+          "title": [],
+          "reference": [],
+          "hal": [],
+          "bibtex": [],
+          "code": [],
+          "codevisible": []
+        }
+      }
+    }
+  },
+  {
+    "section": "conferences",
+    "template": "<h2>{title}</h2><ol reversed>{conferences}</ol>",
+    "data": {
+      "title": "Conferences",
+      "conferences": {
+        "template": "<li>{authors}, <b>{title}</b>. {reference}. <a href=\"https://hal.science/{hal}\" class=\"badge badge text-bg-secondary\">hal</a> <a href=\"data:application/octet-stream,{bibtex}\" class=\"badge badge text-bg-secondary\" download=\"{id}.bib\">bibtex</a> <a href=\"{code}\" class=\"badge badge text-bg-secondary {codevisible}\">code</a></li>",
+        "data": {
+          "id": [],
+          "authors": [],
+          "title": [],
+          "reference": [],
+          "hal": [],
+          "bibtex": [],
+          "code": [],
+          "codevisible": []
+        }
+      }
+    }
+  },
+  {
+    "section": "patents",
+    "template": "<h2>{title}</h2><ol reversed>{patents}</ol>",
+    "data": {
+      "title": "Patents",
+      "patents": {
+        "template": "<li>{authors}, <b>{title}</b>. {reference}. <a href=\"https://hal.science/{hal}\" class=\"badge badge text-bg-secondary\">hal</a> <a href=\"data:application/octet-stream,{bibtex}\" class=\"badge badge text-bg-secondary\" download=\"{id}.bib\">bibtex</a> <a href=\"{code}\" class=\"badge badge text-bg-secondary {codevisible}\">code</a></li>",
+        "data": {
+          "id": [],
+          "authors": [],
+          "title": [],
+          "reference": [],
+          "hal": [],
+          "bibtex": [],
+          "code": [],
+          "codevisible": []
+        }
+      }
+    }
+  },
+  {
+    "section": "dissertations",
+    "template": "<h2>{title}</h2><ol reversed>{dissertations}</ol>",
+    "data": {
+      "title": "Dissertations",
+      "dissertations": {
+        "template": "<li>{authors}, <b>{title}</b>. {reference}. <a href=\"https://hal.science/{hal}\" class=\"badge badge text-bg-secondary\">hal</a> <a href=\"data:application/octet-stream,{bibtex}\" class=\"badge badge text-bg-secondary\" download=\"{id}.bib\">bibtex</a> <a href=\"{code}\" class=\"badge badge text-bg-secondary {codevisible}\">code</a></li>",
+        "data": {
+          "id": [],
+          "authors": [],
+          "title": [],
+          "reference": [],
+          "hal": [],
+          "bibtex": [],
+          "code": [],
+          "codevisible": []
+        }
+      }
+    }
+  }
+]

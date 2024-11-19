@@ -1,0 +1,279 @@
+[
+  {
+    "section": "projects",
+    "template": "<h2>{title}</h2><b class=\"ps-0\">Ongoing:</b>{ongoing}<b class=\"ps-0 mt-3\">Past:</b>{past}",
+    "data": {
+      "title": "Projects and collaborations",
+      "ongoing": {
+        "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Role:</b> {role}. <b>In collaboration with</b> {collaborations}. <b>Fundings:</b> {fundings}.</li>",
+        "data": {
+          "name": [
+            "CESAR",
+            "DUVO",
+            "TERIAD",
+            "MOOV",
+            "AFRUMAR",
+            "AIR chair",
+            "IoT chair"
+          ],
+          "date": [
+            "2025-2029",
+            "2025",
+            "2024-2025",
+            "2024",
+            "2023-2026",
+            "Since 2022",
+            "Since 2006"
+          ],
+          "content": [
+            "Embedded multi-sourCE analySis for the exploration of the underwAter enviRonment",
+            "USV Docking Strategy Using Computer Vision",
+            "Preservation of territories by artificial intelligence embedded in collaborative heterogeneous drones",
+            "Oceanic Optical Measurement of the Speed of an Autonomous Underwater Vehicle",
+            "Frugal and compressed learning for the interpretation of underwater scenes",
+            "Internet of Things for the study of human activity in constrained environments",
+            "Artificial Intelligence and Robotics - Towards the Warehouse of the Future"
+          ],
+          "role": [
+            "Member",
+            "Member",
+            "Coordinator",
+            "Coordinator",
+            "Coordinator",
+            "Member",
+            "Member"
+          ],
+          "collaborations": [
+            "<a href=\"https://www.ifremer.fr\">Ifremer</a>, <a href=\"https://www.thalesgroup.com\">Thales</a>, <a href=\"https://celadon.blue\">Celadon</a> and <a href=\"http://www.ls2n.fr\">LS2N</a>",
+            "<a href=\"https://www.thalesgroup.com\">Thales</a>",
+            "<a href=\"https://isen-brest.fr/labisen/equipes-de-recherche/equipe-autorob/\">AutoROB</a>",
+            "<a href=\"https://www.thalesgroup.com\">Thales</a>",
+            "<a href=\"https://www.thalesgroup.com\">Thales</a>",
+            "<a href=\"https://isen-mediterranee.fr\">ISEN Méditerranée</a> and <a href=\"https://www.eps.fr\">EPS</a>",
+            "<a href=\"https://www.generixgroup.com\">Generix group</a>"
+          ],
+          "fundings": [
+            "ANR",
+            "GIS Cormorant",
+            "Département du Finistere",
+            "GIS Cormorant",
+            "ANRT",
+            "Chaire IoT",
+            "Chaire AIR"
+          ]
+        }
+      },
+      "past": {
+        "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Role:</b> {role}. <b>In collaboration with</b> {collaborations}. <b>Fundings:</b> {fundings}.</li>",
+        "data": {
+          "name": [
+            "CAMOR",
+            "DIVONA",
+            "UNODE",
+            "VISISUB",
+            "AFB_SEAS",
+            "FORSSEA",
+            "FFN"
+          ],
+          "date": [
+            "2024",
+            "2023-2024",
+            "2022",
+            "2021",
+            "2019-2020",
+            "2017-2021",
+            "2013-2016"
+          ],
+          "content": [
+            "Embedded computer vision for seal detection",
+            "Data processed by Artificial Intelligence for the Valorization of Naval Operations",
+            "UNderwater Object Detection Enhancement",
+            "Sub-surface vision",
+            "Analysis of seal behavior through deep learning",
+            "Algorithms development for underwater image processing and positioning",
+            "Automatic swimmer tracking using video sequences: application to performance analysis"
+          ],
+          "role": [
+            "Member",
+            "Member",
+            "Coordinator",
+            "Coordinator",
+            "Member",
+            "Member",
+            "Member"
+          ],
+          "collaborations": [
+            "<a href=\"https://www.ofb.gouv.fr\">Office français de la biodiversité</a>",
+            "<a href=\"https://www.thalesgroup.com\">Thales</a> and <a href=\"\" onclick=\"return false;\">Kopadia</a>",
+            "<a href=\"https://www.thalesgroup.com\">Thales</a>",
+            "<a href=\"https://www.thalesgroup.com\">Thales</a>",
+            "<a href=\"https://www.ofb.gouv.fr\">Office français de la biodiversité</a>",
+            "<a href=\"https://forssea-robotics.fr\">Forssea Robotics</a>",
+            "<a href=\"https://www.ffnatation.fr\">Fédération française de natation</a> and <a href=\"https://actris-systems.fr\">ACTRIS Systems</a>"
+          ],
+          "fundings": [
+            "OFB",
+            "DGA",
+            "GIS Cormorant",
+            "GIS Cormorant",
+            "OFB",
+            "ANRT",
+            "ANRT"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "section": "students",
+    "template": "<h2>{title}</h2><b class=\"ps-0\">Current PhD students:</b>{phds}<b class=\"ps-0 mt-3\">Graduated PhDs:</b>{graduated_phds}<b class=\"ps-0 mt-3\">Postdocs and engineers:</b>{postdocs}<b class=\"ps-0 mt-3\">Master students:</b>{trainees}",
+    "data": {
+      "title": "Students supervision",
+      "phds": {
+        "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}.  <b>Co-advised with</b> {coadvised}. <b>Fundings:</b> {fundings}.</li>",
+        "data": {
+          "name": [
+            "Gabriel Gueganno",
+            "Ikram Eddahmani"
+          ],
+          "date": [
+            "Since 2023",
+            "Since 2022"
+          ],
+          "content": [
+            "Frugal and compressed learning for the interpretation of underwater scenes",
+            "Disentangled representations learning for scenes analysis in storage warehouses"
+          ],
+          "coadvised": [
+            "<a href=\"https://scholar.google.ca/citations?user=acAw9KAAAAAJ&hl=en\">A Karine</a>, <a href=\"https://scholar.google.ca/citations?hl=en&user=331l9OwAAAAJ\">A. Al-Falou</a> and <a href=\"\" onclick=\"return false;\">Franck Florin</a>",
+            "<a href=\"https://scholar.google.ca/citations?hl=en&user=CoZW0O0AAAAJ\">C. H. Pham</a>, <a href=\"\" onclick=\"return false;\">I. Badoc</a> and <a href=\"https://scholar.google.ca/citations?hl=en&user=pAaJtBQAAAAJ\">M. El-bouz</a>"
+          ],
+          "fundings": [
+            "ANRT (with <a href=\"https://www.thalesgroup.com\">Thales</a>)",
+            "ANRT (with <a href=\"https://www.generixgroup.com\">Generix Group</a>)"
+          ]
+        }
+      },
+      "graduated_phds": {
+        "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Co-advised with</b> {coadvised}. <b>Fundings:</b> {fundings}.</li>",
+        "data": {
+          "name": [
+            "Jaouad Hajjami",
+            "Djamel Benarab"
+          ],
+          "date": [
+            "2017-2021",
+            "2013-2016"
+          ],
+          "content": [
+            "Algorithms development for underwater image processing and positioning",
+            "Automatic swimmer tracking using video sequences: application to performance analysis"
+          ],
+          "coadvised": [
+            "<a href=\"https://scholar.google.ca/citations?hl=en&user=331l9OwAAAAJ\">A. Al-Falou</a> and <a href=\"\" onclick=\"return false;\">G. Dreyfus</a>",
+            "<a href=\"https://scholar.google.ca/citations?hl=en&user=331l9OwAAAAJ\">A. Al-Falou</a>, <a href=\"\" onclick=\"return false;\">A. Verney</a> and <a href=\"\" onclick=\"return false;\">P. Hellard</a>"
+          ],
+          "fundings": [
+            "ANRT (with <a href=\"https://forssea-robotics.fr\">Forssea Robotics</a>)",
+            "ANRT (with <a href=\"https://actris-systems.fr\">ACTRIS Systems</a>)"
+          ]
+        }
+      },
+      "postdocs": {
+        "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Co-supervised with</b> {cosupervised}. <b>Fundings:</b> {fundings}.</li>",
+        "data": {
+          "name": [
+            "Pedro Sotto",
+            "Simon Fournier"
+          ],
+          "date": [
+            "2024-2026",
+            "2024"
+          ],
+          "content": [
+            "Preservation of territories by artificial intelligence embedded in collaborative heterogeneous drones",
+            "Oceanic Optical Measurement of the Speed of an Autonomous Underwater Vehicle"
+          ],
+          "cosupervised": [
+            "<a href=\"https://scholar.google.ca/citations?hl=en&user=PBqavlYAAAAJ\">H. Fagundes Gasparoto</a> and <a href=\"https://scholar.google.ca/citations?hl=en&user=2PndZqAAAAAJ\">T. Verdu</a>",
+            "<a href=\"https://scholar.google.ca/citations?hl=en&user=WxXWon4AAAAJ\">A. Arnold</a>"
+          ],
+          "fundings": [
+            "Département du Finistere",
+            "GIS Cormorant"
+          ]
+        }
+      },
+      "trainees": {
+        "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Co-supervised with</b> {cosupervised}. <b>Fundings:</b> {fundings}.</li>",
+        "data": {
+          "name": [
+            "Simon Fournier",
+            "Hamza Masmoudi",
+            "Adam Vrignaud",
+            "Pierre Legeay",
+            "Camille Dugard",
+            "Clémence Carcopino",
+            "Thomas Le Berre",
+            "Ahmad Hussein",
+            "Jaouad Hajjami",
+            "Rabieh Basbous",
+            "Djamel Benarab"
+          ],
+          "date": [
+            "2024",
+            "2024",
+            "2022",
+            "2021",
+            "2020",
+            "2020",
+            "2020",
+            "2019",
+            "2017",
+            "2016",
+            "2013"
+          ],
+          "content": [
+            "Oceanic Optical Measurement of the Speed of an Autonomous Underwater Vehicle",
+            "Seal detection and counting through deep learning",
+            "UNderwater Object Detection Enhancement",
+            "Sub-surface vision",
+            "3D mouse integration for MRI images navigation",
+            "Deep learning for benthic marine habitats classification",
+            "Deep learning for benthic marine habitats classification",
+            "On-board face detection and recognition",
+            "Study and development of underwater vision recognition and guidance algorithms",
+            "Lane detection on FPGA",
+            "Automatic swimmer tracking based on optical correlation techniques"
+          ],
+          "cosupervised": [
+            "<a href=\"https://scholar.google.ca/citations?hl=en&user=WxXWon4AAAAJ\">A. Arnold</a>",
+            "<a href=\"https://scholar.google.ca/citations?user=acAw9KAAAAAJ&hl=en\">A Karine</a>",
+            "<a href=\"\" onclick=\"return false;\">Franck Florin</a>",
+            "<a href=\"\" onclick=\"return false;\">Franck Florin</a>",
+            "<a href=\"\" onclick=\"return false;\">C. Vignaud</a>",
+            "<a href=\"\" onclick=\"return false;\">C. Vignaud</a>",
+            "<a href=\"\" onclick=\"return false;\">C. Vignaud</a>",
+            "<a href=\"\">M. Jridi</a>",
+            "<a href=\"https://scholar.google.ca/citations?hl=en&user=331l9OwAAAAJ\">A. Al-Falou</a>",
+            "<a href=\"https://scholar.google.ca/citations?hl=en&user=N8Xv4GQAAAAJ\">M. Jridi</a>",
+            "<a href=\"https://scholar.google.ca/citations?hl=en&user=331l9OwAAAAJ\">A. Al-Falou</a>"
+          ],
+          "fundings": [
+            "GIS Cormorant",
+            "OFB",
+            "GIS Cormorant",
+            "GIS Cormorant",
+            "LabISEN",
+            "LabISEN",
+            "LabISEN",
+            "LabISEN",
+            "Forssea Robotics",
+            "LabISEN",
+            "Actris Systems"
+          ]
+        }
+      }
+    }
+  }
+]

@@ -1,0 +1,136 @@
+/**
+ * \\Author: Thibault Napoléon "Imothep"
+ * \\Company: ISEN Ouest
+ * \\Email: thibault.napoleon@isen-ouest.yncrea.fr
+ * \\Created Date: 16-Oct-2024 - 12:33:51
+ * \\Last Modified: 19-Nov-2024 - 15:54:05
+ */
+
+@media (min-width: 1400px) {
+  .container,
+  .container-lg,
+  .container-md,
+  .container-sm,
+  .container-xl,
+  .container-xxl {
+    max-width: 1140px;
+  }
+}
+
+body {
+  font-family: 'Inconsolata', monospace;
+  font-size: 1rem;
+  font-weight: 500;
+  --color1: #215325;
+  --color2: #57915c;
+  --rule-size: 1.5px;
+}
+
+.color2 {
+  color: var(--color2);
+}
+
+#about-me {
+  text-align: justify;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  color: var(--color1);
+  font-size: 1.5rem;
+  font-weight: 500;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: var(--color2);
+  text-decoration: none;
+}
+
+header {
+  padding-top: 0.5rem;
+  background-color: white;
+}
+
+footer {
+  padding-bottom: 0.5rem;
+}
+
+section {
+  margin-left: 2rem;
+  margin-right: 2rem;
+  margin-bottom: 1.5rem;
+}
+
+section:before {
+    height: 5.25rem;
+    margin-top: -5.25rem;
+    display: block;
+    content: '';
+}
+
+h1 {
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 400;
+  padding-top: 0.2rem;
+  padding-bottom: 0.2rem;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  border-top: var(--rule-size) solid var(--color2);
+  border-bottom: var(--rule-size) solid var(--color2);
+}
+
+h2 {
+  border-left: 6px solid var(--color2);
+  font-size: 1.35rem;
+  font-weight: 600;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+  padding-left: 0.5rem;
+}
+
+h3 {
+  font-size: 1.8rem;
+  font-weight: 600;
+}
+
+a {
+  color: var(--color2);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--color1);
+  text-decoration: underline;
+}
+
+.ai, .bi {
+  color: var(--color1);
+} 
+
+.ai:hover, .bi:hover {
+  color: var(--color2);
+} 
+
+.social-media .ai, .social-media .bi {
+  font-size: 2.5rem;
+  margin-left: 1.5rem;
+}
+
+.zoom {
+  font-size: 1.2rem;
+}
+
+.vertical-rule {
+  border-left: var(--rule-size) solid var(--color1);
+  height:4rem;
+}
+
+.horizontal-rule {
+  border-top: var(--rule-size) solid var(--color1);
+}
+
+.teaching {
+  columns: 3;
+  -webkit-columns: 3;
+  -moz-columns: 3;
+}

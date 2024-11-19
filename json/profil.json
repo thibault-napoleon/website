@@ -1,0 +1,86 @@
+[
+  {
+    "section": "header",
+    "template": "<h3>{name}</h3>{position}",
+    "data": {
+      "name": "Dr. Thibault Napoléon",
+      "position": "Assistant Professor at <a href=\"https://isen-brest.fr/\">ISEN Ouest</a>"
+    }
+  },
+  {
+    "section": "photo",
+    "template": "<img src='{src}' alt='{alt}' class=\"img-thumbnail img-responsive center-block\">",
+    "data": {
+      "src": "imgs/photo.png",
+      "alt": "Thibault Napoléon"
+    }
+  },
+  {
+    "section": "about-me",
+    "template": "<h2>{title}</h2>{abstract}<div class=\"mt-2\"><b>Research Keywords:</b> {keywords}</div><div class=\"text-center social-media\">{social_media}</div>",
+    "data": {
+      "title": "About me",
+      "abstract": "I am an associate professor at <a href=\"https://isen-brest.fr/\">ISEN Ouest</a>. My research interests include computer vision for underwater environments and are conducted at the <a href=\"https://isen-brest.fr/labisen/equipes-de-recherche/equipe-vision-ad/\">Vision-AD team</a> of the <a href=\"https://isen-brest.fr/labisen\">LabISEN</a>. I teach computer science and pattern recognition at <a href=\"https://isen-brest.fr/\">ISEN Brest</a> engineering school.",
+      "keywords": "Computer Vision, Underwater Vision, Pattern Recognition, Knowledge Distillation, Deep Learning / Artificial Intelligence, Image Enhancement.",
+      "social_media": {
+        "template": "<a href=\"{target}\">{icon}</a>",
+        "data": {
+          "target": [
+            "https://scholar.google.fr/citations?user=4WPrgqMAAAAJ&hl=fr",
+            "https://cv.hal.science/thibault-napoleon",
+            "https://orcid.org/0000-0001-5405-7705",
+            "https://github.com/thibault-napoleon",
+            "https://www.linkedin.com/in/thibault-napoléon-4990782/"
+          ],
+          "icon": [
+            "<i class=\"ai ai-google-scholar\"></i>",
+            "<i class=\"ai ai-hal\"></i>",
+            "<i class=\"ai ai-orcid\"></i>",
+            "<i class=\"bi bi-github\"></i>",
+            "<i class=\"bi bi-linkedin\"></i>"
+          ]
+        }
+      }
+    }
+  },
+  {
+    "section": "contact",
+    "template": "<h2>{title}</h2>{address}<br>{room}<br>{email}<br>{phone}",
+    "data": {
+      "title": "Contact",
+      "address": "LabISEN / ISEN Ouest<br>20 rue Cuirassé Bretagne<br>29200 Brest, France",
+      "room": "<i class=\"bi bi-pin-map-fill\"></i> Room 327",
+      "email": "<i class=\"bi bi-mailbox2\"></i> <a href=\"mailto:thibault.napoleon@isen-ouest.yncrea.fr\">thibault.napoleon@yncrea.fr</a>",
+      "phone": "<i class=\"bi bi-telephone\"></i> +33 (0)2 98 03 88 36"
+    }
+  },
+  {
+    "section": "news",
+    "template": "<h2>{title}</h2><ul id=\"news-list\" class=\"mb-1\" number=\"{number}\">{news}</ul><i class=\"bi bi-arrow-up-circle-fill ms-4 zoom\" onclick=\"updateVisibility('news-list', -4)\"></i><i class=\"bi bi-arrow-down-circle-fill ms-2 zoom\" onclick=\"updateVisibility('news-list', 4)\"></i>",
+    "data": {
+      "title": "News",
+      "number": 5,
+      "news": {
+        "template": "<li><b>{date}:</b> {content}</li>",
+        "data": {
+          "date": [
+            "11/2024",
+            "11/2024",
+            "10/2024",
+            "03/2024",
+            "12/2023",
+            "05/2023"
+          ],
+          "content": [
+            "<a href=\"https://isen.softy.pro/offre/140635-poste-denseignant-chercheur-enseignante-chercheuse-vision-par-ordinateur-h-f\">Associate Professor position</a> with research on computer vision for underwater vision and teaching in computer science",
+            "Welcome to <a href=\"https://www.linkedin.com/in/simon-fournier-0539b419b/\">Simon Fournier</a> who just started a research engineering fixed-term contract in our team!",
+            "One conference paper accepted in <a href=\"https://hal.science/hal-04734431\">CAID 2025</a> about knowledge distillation methods for underwater image semantic segmentation",
+            "Our paper <a href=\"https://www.sciencedirect.com/science/article/abs/pii/S016786552400059X\">Channel-spatial knowledge distillation for efficient semantic segmentation</a> has been accepted to the ELSEVIER Pattern Recognition Letters journal",
+            "Gabriel Guéganno starts his PhD on frugal and compressed learning for the interpretation of underwater scenes, in collaboration with Thales",
+            "Phd position on frugal and compressed learning for the interpretation of underwater scenes (position filled)"
+          ]
+        }
+      }
+    }
+  }
+]
