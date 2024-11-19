@@ -3,7 +3,7 @@
  * \\Company: ISEN Ouest
  * \\Email: thibault.napoleon@isen-ouest.yncrea.fr
  * \\Created Date: 16-Oct-2024 - 12:33:39
- * \\Last Modified: 19-Nov-2024 - 22:09:18
+ * \\Last Modified: 19-Nov-2024 - 22:22:53
  */
 
 'use strict';
@@ -25,8 +25,6 @@ loadData('json/publications.json', loadHALData);
 loadData('json/teaching.json');
 
 // Collapse menu on click (mobile).
-const menuCollapse = new bootstrap.Collapse(
-  document.getElementById('menu'), {toggle: false});
 handleMenuCollapse();
 
 //------------------------------------------------------------------------------
@@ -167,8 +165,7 @@ function handleMenuCollapse()
 {
   for (let item of document.getElementById('menu').getElementsByTagName('a')) {
     item.addEventListener('click', function () {
-      if (document.getElementById('menu').classList.contains('show'))
-        menuCollapse.toggle();
+      document.getElementById('menu').classList.remove('show');
     });
   }
 }
