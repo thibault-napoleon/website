@@ -64,6 +64,7 @@
         "template": "<li><b>{date}:</b> {content}</li>",
         "data": {
           "date": [
+            "12/2024",
             "11/2024",
             "11/2024",
             "10/2024",
@@ -75,10 +76,11 @@
             "09/2022"
           ],
           "content": [
+            "<a href=\"https://orasis2025.sciencesconf.org/\">ORASIS 2025</a> papers submissions are open from January 13 until February 14, 2025: <a href=\"https://orasis2025.sciencesconf.org/\">https://orasis2025.sciencesconf.org</a>",
             "<a href=\"https://isen.softy.pro/offre/140635-poste-denseignant-chercheur-enseignante-chercheuse-vision-par-ordinateur-h-f\">Associate Professor position</a> with research on computer vision for underwater vision and teaching in computer science",
             "Welcome to <a href=\"https://www.linkedin.com/in/simon-fournier-0539b419b/\">Simon Fournier</a> who just started a research engineering fixed-term contract in our team!",
             "One conference paper accepted at <a href=\"https://hal.science/hal-04734431\">CAID 2025</a> about knowledge distillation methods for underwater image semantic segmentation",
-            "Happy to announce that the <a href=\"https://isen-brest.fr/labisen/equipes-de-recherche/equipe-vision-ad/\">Vision-AD team</a> has been selected to organize ORASIS 2025",
+            "Happy to announce that the <a href=\"https://isen-brest.fr/labisen/equipes-de-recherche/equipe-vision-ad/\">Vision-AD team</a> has been selected to organize <a href=\"https://orasis2025.sciencesconf.org/\">ORASIS 2025</a>",
             "Very proud that our <a href=\"\" onclick=\"return false;\">PRME CESAR project</a> was selected for funding by the ANR",
             "Our paper <a href=\"https://www.sciencedirect.com/science/article/abs/pii/S016786552400059X\">Channel-spatial knowledge distillation for efficient semantic segmentation</a> has been accepted to the ELSEVIER Pattern Recognition Letters journal",
             "<a href=\"\" onclick=\"return false;\">Gabriel Guéganno</a> starts his PhD on frugal and compressed learning for the interpretation of underwater scenes, in collaboration with Thales",
