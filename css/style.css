@@ -3,7 +3,7 @@
  * \\Company: ISEN Ouest
  * \\Email: thibault.napoleon@isen-ouest.yncrea.fr
  * \\Created Date: 16-Oct-2024 - 12:33:51
- * \\Last Modified: 19-Nov-2024 - 22:38:41
+ * \\Last Modified: 03-Jan-2025 - 16:00:20
  */
 
 @media (min-width: 1400px) {
@@ -30,11 +30,13 @@
 }
 
 body {
+  background-color: light-dark(#ffffff, #121212);
+  color: light-dark(#000000, #ffffff);
   font-family: 'Inconsolata', monospace;
   font-size: 1rem;
   font-weight: 500;
-  --color1: #215325;
-  --color2: #57915c;
+  --color1: light-dark(#215325, #417945);
+  --color2: light-dark(#57915c, #668765);
   --rule-size: 1.5px;
 }
 
@@ -46,13 +48,13 @@ body {
   text-align: justify;
 }
 
-.navbar-light .navbar-nav .nav-link {
+.navbar-nav .nav-link {
   color: var(--color1);
   font-size: 1.5rem;
   font-weight: 500;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
+.navbar-nav .nav-link:hover {
   color: var(--color2);
   text-decoration: none;
 }
@@ -61,9 +63,13 @@ body {
   text-align: right;
 }
 
+.color-scheme {
+  font-size: 1rem;
+}
+
 header {
   padding-top: 0.5rem;
-  background-color: white;
+  background-color: light-dark(#ffffff, #121212);
 }
 
 footer {
@@ -77,10 +83,10 @@ section {
 }
 
 section:before {
-    height: 5.6rem;
-    margin-top: -5.6rem;
-    display: block;
-    content: '';
+  height: 5.6rem;
+  margin-top: -5.6rem;
+  display: block;
+  content: '';
 }
 
 h1 {
@@ -121,11 +127,16 @@ a:hover {
 
 .ai, .bi {
   color: var(--color1);
-} 
+}
 
 .ai:hover, .bi:hover {
   color: var(--color2);
-} 
+}
+
+.img-thumbnail {
+  background-color: light-dark(#ffffff, #121212);
+  border-color: light-dark(#bbbbbb, #333333);
+}
 
 .social-media .ai, .social-media .bi {
   font-size: 2.5rem;

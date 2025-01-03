@@ -3,7 +3,7 @@
  * \\Company: ISEN Ouest
  * \\Email: thibault.napoleon@isen-ouest.yncrea.fr
  * \\Created Date: 16-Oct-2024 - 12:33:39
- * \\Last Modified: 19-Nov-2024 - 22:22:53
+ * \\Last Modified: 03-Jan-2025 - 16:02:52
  */
 
 'use strict';
@@ -26,6 +26,9 @@ loadData('json/teaching.json');
 
 // Collapse menu on click (mobile).
 handleMenuCollapse();
+
+// Set the color scheme.
+setColorScheme();
 
 //------------------------------------------------------------------------------
 //--- loadData -----------------------------------------------------------------
@@ -168,4 +171,52 @@ function handleMenuCollapse()
       document.getElementById('menu').classList.remove('show');
     });
   }
+}
+
+//------------------------------------------------------------------------------
+//--- setColorScheme -----------------------------------------------------------
+//------------------------------------------------------------------------------
+// Set the color scheme.
+// @param mode: the color scheme ('light' or 'dark'). If it is undefined, the
+// media preference is used.
+function setColorScheme(mode)
+{
+  // Check media preference.
+  if (mode == undefined)
+  {
+    if (window.matchMedia &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches)
+      mode = 'dark';
+    else
+      mode = 'light';
+  }
+
+  // Set the color scheme.
+  document.getElementsByTagName('body')[0].style.colorScheme = mode;
+
+  // Set color scheme icon.
+  if (mode == 'light')
+  {
+    document.getElementById('color-scheme').innerHTML =
+      '| <i class="bi bi-moon-fill color-scheme"></i>';
+    document.getElementById('navbar').classList.remove('navbar-dark');
+    document.getElementById('navbar').classList.add('navbar-light');
+  }
+  else
+  {
+    document.getElementById('color-scheme').innerHTML =
+      '| <i class="bi bi-sun-fill color-scheme"></i>';
+    document.getElementById('navbar').classList.remove('navbar-light');
+    document.getElementById('navbar').classList.add('navbar-dark');
+  }
+}
+
+//------------------------------------------------------------------------------
+//--- switchColorScheme --------------------------------------------------------
+//------------------------------------------------------------------------------
+// Switch the color scheme.
+function switchColorScheme()
+{
+  setColorScheme(document.getElementsByTagName('body'
+    )[0].style.colorScheme == 'dark' ? 'light' : 'dark');
 }
