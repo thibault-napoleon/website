@@ -64,6 +64,7 @@
         "template": "<li><b>{date}:</b> {content}</li>",
         "data": {
           "date": [
+            "02/2025",
             "01/2025",
             "11/2024",
             "11/2024",
@@ -76,7 +77,8 @@
             "09/2022"
           ],
           "content": [
-            "<a href=\"https://orasis2025.sciencesconf.org/\">ORASIS 2025</a> papers submissions are open from January 13 until February 14, 2025: <a href=\"https://orasis2025.sciencesconf.org/\">https://orasis2025.sciencesconf.org</a>",
+            "One conference paper accepted at <a href=\"https://brest25.oceansconference.org/\">OCEANS 2025</a> about anomaly detection via reverse distillation for ocean environments preservation",
+            "<a href=\"https://orasis2025.sciencesconf.org/\">ORASIS 2025</a> papers submissions are open from January 13 until February <strike>14</strike>28 2025: <a href=\"https://orasis2025.sciencesconf.org/\">https://orasis2025.sciencesconf.org</a>",
             "<a href=\"https://isen.softy.pro/offre/140635-poste-denseignant-chercheur-enseignante-chercheuse-vision-par-ordinateur-h-f\">Associate Professor position</a> with research on computer vision for underwater vision and teaching in computer science",
             "Welcome to <a href=\"https://www.linkedin.com/in/simon-fournier-0539b419b/\">Simon Fournier</a> who just started a research engineering fixed-term contract in our team!",
             "One conference paper accepted at <a href=\"https://hal.science/hal-04734431\">CAID 2025</a> about knowledge distillation methods for underwater image semantic segmentation",
