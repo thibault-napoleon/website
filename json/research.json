@@ -133,24 +133,19 @@
         "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}.  <b>Co-advised with</b> {coadvised}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
-            "Gabriel Gueganno",
-            "Ikram Eddahmani"
+            "Gabriel Gueganno"
           ],
           "date": [
-            "Since 2023",
-            "Since 2022"
+            "Since 2023"
           ],
           "content": [
-            "Frugal and compressed learning for the interpretation of underwater scenes",
-            "Disentangled representations learning for scenes analysis in storage warehouses"
+            "Frugal and compressed learning for the interpretation of underwater scenes"
           ],
           "coadvised": [
-            "<a href=\"https://scholar.google.ca/citations?user=acAw9KAAAAAJ&hl=en\">A Karine</a>, <a href=\"https://scholar.google.ca/citations?hl=en&user=331l9OwAAAAJ\">A. Al-Falou</a> and <a href=\"\" onclick=\"return false;\">Franck Florin</a>",
-            "<a href=\"https://scholar.google.ca/citations?hl=en&user=CoZW0O0AAAAJ\">C. H. Pham</a>, <a href=\"\" onclick=\"return false;\">I. Badoc</a> and <a href=\"https://scholar.google.ca/citations?hl=en&user=pAaJtBQAAAAJ\">M. El-bouz</a>"
+            "<a href=\"https://scholar.google.ca/citations?user=acAw9KAAAAAJ&hl=en\">A Karine</a>, <a href=\"https://scholar.google.ca/citations?hl=en&user=331l9OwAAAAJ\">A. Al-Falou</a> and <a href=\"\" onclick=\"return false;\">Franck Florin</a>"
           ],
           "fundings": [
-            "ANRT (with <a href=\"https://www.thalesgroup.com\">Thales</a>)",
-            "ANRT (with <a href=\"https://www.generixgroup.com\">Generix Group</a>)"
+            "ANRT (with <a href=\"https://www.thalesgroup.com\">Thales</a>)"
           ]
         }
       },
@@ -158,22 +153,27 @@
         "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Co-advised with</b> {coadvised}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
+            "Ikram Eddahmani",
             "Jaouad Hajjami",
             "Djamel Benarab"
           ],
           "date": [
+            "2022-2025",
             "2017-2021",
             "2013-2016"
           ],
           "content": [
+            "Disentangled representations learning for scenes analysis in storage warehouses",
             "Algorithms development for underwater image processing and positioning",
             "Automatic swimmer tracking using video sequences: application to performance analysis"
           ],
           "coadvised": [
+            "<a href=\"https://scholar.google.ca/citations?hl=en&user=CoZW0O0AAAAJ\">C. H. Pham</a>, <a href=\"\" onclick=\"return false;\">I. Badoc</a> and <a href=\"https://scholar.google.ca/citations?hl=en&user=pAaJtBQAAAAJ\">M. El-bouz</a>",
             "<a href=\"https://scholar.google.ca/citations?hl=en&user=331l9OwAAAAJ\">A. Al-Falou</a> and <a href=\"\" onclick=\"return false;\">G. Dreyfus</a>",
             "<a href=\"https://scholar.google.ca/citations?hl=en&user=331l9OwAAAAJ\">A. Al-Falou</a>, <a href=\"\" onclick=\"return false;\">A. Verney</a> and <a href=\"\" onclick=\"return false;\">P. Hellard</a>"
           ],
           "fundings": [
+            "ANRT (with <a href=\"https://www.generixgroup.com\">Generix Group</a>)",
             "ANRT (with <a href=\"https://forssea-robotics.fr\">Forssea Robotics</a>)",
             "ANRT (with <a href=\"https://actris-systems.fr\">ACTRIS Systems</a>)"
           ]
