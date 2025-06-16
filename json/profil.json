@@ -21,7 +21,7 @@
     "data": {
       "title": "About me",
       "abstract": "I am an associate professor at <a href=\"https://isen-brest.fr/\">ISEN Ouest</a>. My research interests include computer vision for underwater environments and are conducted at the <a href=\"https://isen-brest.fr/labisen/equipes-de-recherche/equipe-vision-ad/\">Vision-AD team</a> of the <a href=\"https://isen-brest.fr/labisen\">LabISEN</a>. I teach computer science and pattern recognition at <a href=\"https://isen-brest.fr/\">ISEN Brest</a> engineering school.",
-      "keywords": "Computer Vision, Underwater Vision, Pattern Recognition, Knowledge Distillation, Deep Learning / Artificial Intelligence, Image Enhancement.",
+      "keywords": "Computer Vision, Underwater Vision, Pattern Recognition, Knowledge Distillation, Semantic Segmentation, Deep Learning / Artificial Intelligence, Image Enhancement.",
       "social_media": {
         "template": "<a href=\"{target}\">{icon}</a>",
         "data": {
