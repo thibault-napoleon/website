@@ -64,6 +64,7 @@
         "template": "<li><b>{date}:</b> {content}</li>",
         "data": {
           "date": [
+            "07/2025",
             "06/2025",
             "02/2025",
             "01/2025",
@@ -78,6 +79,7 @@
             "09/2022"
           ],
           "content": [
+            "Our paper <a href=\"https://www.sciencedirect.com/science/article/pii/S0925231225014638\">I2CKD: Intra- and inter-class knowledge distillation for semantic segmentation</a> has been accepted to the ELSEVIER Neurocomputing journal",
             "Our paper <a href=\"https://link.springer.com/article/10.1007/s10489-025-06621-z\">Towards automation of warehouse management: Counting boxes on pallets via 3D reconstruction from a single image</a> has been accepted to the SPRINGER Applied Intelligence journal",
             "One conference paper accepted at <a href=\"https://brest25.oceansconference.org/\">OCEANS 2025</a> about anomaly detection via reverse distillation for ocean environments preservation",
             "<a href=\"https://orasis2025.sciencesconf.org/\">ORASIS 2025</a> papers submissions are open from January 13 until February <strike>14</strike>28 2025: <a href=\"https://orasis2025.sciencesconf.org/\">https://orasis2025.sciencesconf.org</a>",
