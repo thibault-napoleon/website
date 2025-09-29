@@ -208,6 +208,7 @@
         "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Co-supervised with</b> {cosupervised}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
+            "Wissal Fnaich",
             "Aimée Boukamba",
             "Simon Fournier",
             "Hamza Masmoudi",
@@ -223,6 +224,7 @@
           ],
           "date": [
             "2025",
+            "2025",
             "2024",
             "2024",
             "2022",
@@ -236,6 +238,7 @@
             "2013"
           ],
           "content": [
+            "Condition Aware Multimodal Semantic Segmentation Adapted to Underwater Scene Understanding",
             "USV Docking Strategy Using Computer Vision (DUVO)",
             "Oceanic Optical Measurement of the Speed of an Autonomous Underwater Vehicle",
             "Seal detection and counting through deep learning",
@@ -250,6 +253,7 @@
             "Automatic swimmer tracking based on optical correlation techniques"
           ],
           "cosupervised": [
+            "<a href=\"https://scholar.google.ca/citations?hl=en&user=N8Xv4GQAAAAJ\">M. Jridi</a>",
             "<a href=\"https://scholar.google.com/citations?user=N48nTrUAAAAJ&hl=fr\">M. Aron</a>",
             "<a href=\"https://scholar.google.ca/citations?hl=en&user=WxXWon4AAAAJ\">A. Arnold</a>",
             "<a href=\"https://scholar.google.ca/citations?user=acAw9KAAAAAJ&hl=en\">A Karine</a>",
@@ -264,6 +268,7 @@
             "<a href=\"https://scholar.google.ca/citations?hl=en&user=331l9OwAAAAJ\">A. Al-Falou</a>"
           ],
           "fundings": [
+            "Nantes Métropole",
             "GIS Cormorant",
             "GIS Cormorant",
             "OFB",
