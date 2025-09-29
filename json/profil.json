@@ -64,6 +64,7 @@
         "template": "<li><b>{date}:</b> {content}</li>",
         "data": {
           "date": [
+            "09/2025",
             "07/2025",
             "06/2025",
             "05/2025",
@@ -80,6 +81,7 @@
             "09/2022"
           ],
           "content": [
+            "One conference paper accepted at <a href=\"https://www.icrcv.org/\">ICRCV 2025</a> about condition aware multimodal semantic segmentation adapted to underwater scene understanding",
             "Our paper <a href=\"https://www.sciencedirect.com/science/article/pii/S0925231225014638\">I2CKD: Intra- and inter-class knowledge distillation for semantic segmentation</a> has been accepted to the ELSEVIER Neurocomputing journal",
             "Our paper <a href=\"https://link.springer.com/article/10.1007/s10489-025-06621-z\">Towards automation of warehouse management: Counting boxes on pallets via 3D reconstruction from a single image</a> has been accepted to the SPRINGER Applied Intelligence journal",
             "A new patent has been published about <a href=\"https://register.epo.org/application?number=EP24802233\">Method for Classifying a Scene of the Surroundings of a Vehicle</a>",
