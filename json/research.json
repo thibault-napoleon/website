@@ -184,23 +184,28 @@
         "data": {
           "name": [
             "Pedro Sotto",
-            "Simon Fournier"
+            "Simon Fournier",
+            "Mouhamad Chehaitly"
           ],
           "date": [
             "2024-2025",
-            "2024"
+            "2024",
+            "2020-2022"
           ],
           "content": [
             "Preservation of territories by artificial intelligence embedded in collaborative heterogeneous drones",
-            "Oceanic Optical Measurement of the Speed of an Autonomous Underwater Vehicle"
+            "Oceanic Optical Measurement of the Speed of an Autonomous Underwater Vehicle",
+            "High-speed and low-area implementation of tracking algorithm"
           ],
           "cosupervised": [
             "<a href=\"https://scholar.google.ca/citations?hl=en&user=PBqavlYAAAAJ\">H. Fagundes Gasparoto</a> and <a href=\"https://scholar.google.ca/citations?hl=en&user=2PndZqAAAAAJ\">T. Verdu</a>",
-            "<a href=\"https://scholar.google.ca/citations?hl=en&user=WxXWon4AAAAJ\">A. Arnold</a>"
+            "<a href=\"https://scholar.google.ca/citations?hl=en&user=WxXWon4AAAAJ\">A. Arnold</a>",
+            "<a href=\"\" onclick=\"return false;\">A. Lalevée</a>"
           ],
           "fundings": [
             "Département du Finistere",
-            "GIS Cormorant"
+            "GIS Cormorant",
+            "Thales"
           ]
         }
       },
