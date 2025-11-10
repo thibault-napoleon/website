@@ -133,18 +133,23 @@
         "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}.  <b>Co-advised with</b> {coadvised}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
+            "Antonio Al Makdissi",
             "Gabriel Gueganno"
           ],
           "date": [
+            "Since 2025",
             "Since 2023"
           ],
           "content": [
+            "Contribution of multimodal artificial intelligence to the analysis of underwater environmental data",
             "Frugal and compressed learning for the interpretation of underwater scenes"
           ],
           "coadvised": [
-            "<a href=\"https://scholar.google.ca/citations?user=acAw9KAAAAAJ&hl=en\">A Karine</a>, <a href=\"https://scholar.google.ca/citations?hl=en&user=331l9OwAAAAJ\">A. Al-Falou</a> and <a href=\"\" onclick=\"return false;\">Franck Florin</a>"
+            "<a href=\"https://scholar.google.com/citations?user=u8KFTTwAAAAJ&hl=en\">O. Kermorgant</a> and <a href=\"https://scholar.google.com/citations?user=u8KFTTwAAAAJ&hl=en\" onclick=\"return false;\">M. Jridi</a>",
+            "<a href=\"https://scholar.google.ca/citations?user=acAw9KAAAAAJ&hl=en\">A. Karine</a>, <a href=\"https://scholar.google.ca/citations?hl=en&user=331l9OwAAAAJ\">A. Al-Falou</a> and <a href=\"\" onclick=\"return false;\">F. Florin</a>"
           ],
           "fundings": [
+            "ANR CESAR",
             "ANRT (with <a href=\"https://www.thalesgroup.com\">Thales</a>)"
           ]
         }
@@ -261,9 +266,9 @@
             "<a href=\"https://scholar.google.ca/citations?hl=en&user=N8Xv4GQAAAAJ\">M. Jridi</a>",
             "<a href=\"https://scholar.google.com/citations?user=N48nTrUAAAAJ&hl=fr\">M. Aron</a>",
             "<a href=\"https://scholar.google.ca/citations?hl=en&user=WxXWon4AAAAJ\">A. Arnold</a>",
-            "<a href=\"https://scholar.google.ca/citations?user=acAw9KAAAAAJ&hl=en\">A Karine</a>",
-            "<a href=\"\" onclick=\"return false;\">Franck Florin</a>",
-            "<a href=\"\" onclick=\"return false;\">Franck Florin</a>",
+            "<a href=\"https://scholar.google.ca/citations?user=acAw9KAAAAAJ&hl=en\">A. Karine</a>",
+            "<a href=\"\" onclick=\"return false;\">F. Florin</a>",
+            "<a href=\"\" onclick=\"return false;\">F. Florin</a>",
             "<a href=\"\" onclick=\"return false;\">C. Vignaud</a>",
             "<a href=\"\" onclick=\"return false;\">C. Vignaud</a>",
             "<a href=\"\" onclick=\"return false;\">C. Vignaud</a>",
