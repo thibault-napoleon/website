@@ -1,0 +1,147 @@
+{
+  "title": "Biographie schema",
+  "type": "array",
+  "description": "List of sections",
+  "items": {
+    "type": "object",
+    "description": "Section detail",
+    "required": ["section", "template", "data"],
+    "properties": {
+      "section": {
+        "type": "string",
+        "enum": ["positions", "education", "responsibilities", "reviewer"],
+        "description": "Section name"
+      },
+      "template": {
+        "type": "string",
+        "description": "HTML template of the section"
+      },
+      "data": {
+        "type": "object",
+        "description": "Section data",
+        "required": ["title"],
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Section title"
+          },
+          "positions": {
+            "$ref": "#/definitions/template",
+            "description": "Positions details"
+          },
+          "diplomas": {
+            "$ref": "#/definitions/template",
+            "description": "Diplomas details"
+          },
+          "responsibilities": {
+            "type": "object",
+            "description": "Responsibilities details",
+            "required": ["template", "data"],
+            "properties": {
+              "template": {
+                "type": "string",
+                "description": "HTML template of a responsibilitie"
+              },
+              "data": {
+                "type": "object",
+                "description": "Responsibilities data",
+                "required": ["date", "content"],
+                "properties": {
+                  "date": {
+                    "type": "array",
+                    "description": "Responsibilities dates",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "content": {
+                    "type": "array",
+                    "description": "Responsibilities contents",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "names": {
+            "type": "object",
+            "description": "Reviewer details",
+            "required": ["template", "data"],
+            "properties": {
+              "template": {
+                "type": "string",
+                "description": "HTML template of a reviewer"
+              },
+              "data": {
+                "type": "object",
+                "description": "Reviewer data",
+                "required": ["name"],
+                "properties": {
+                  "name": {
+                    "type": "array",
+                    "description": "Reviewer name",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "allOf": [
+      {
+        "if": {"properties": {"section": {"const": "positions"}}},
+        "then": {"properties": {"data": {"required": ["positions"]}}}
+      },
+      {
+        "if": {"properties": {"section": {"const": "education"}}},
+        "then": {"properties": {"data": {"required": ["diplomas"]}}}
+      },
+      {
+        "if": {"properties": {"section": {"const": "responsibilities"}}},
+        "then": {"properties": {"data": {"required": ["responsibilities"]}}}
+      },
+      {
+        "if": {"properties": {"section": {"const": "reviewer"}}},
+        "then": {"properties": {"data": {"required": ["names"]}}}
+      }
+    ]
+  },
+  "definitions": {
+    "template": {
+      "type": "object",
+      "required": ["template", "data"],
+      "properties": {
+        "template": {
+          "type": "string",
+          "description": "HTML template"
+        },
+        "data": {
+          "type": "object",
+          "required": ["date", "content"],
+          "properties": {
+            "date": {
+              "type": "array",
+              "description": "Dates",
+              "items": {
+                "type": "string"
+              }
+            },
+            "content": {
+              "type": "array",
+              "description": "Contents",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

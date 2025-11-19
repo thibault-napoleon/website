@@ -1,0 +1,161 @@
+{
+  "title": "Profil schema",
+  "type": "array",
+  "description": "List of sections",
+  "items": {
+    "type": "object",
+    "description": "Section detail",
+    "required": ["section", "template", "data"],
+    "properties": {
+      "section": {
+        "type": "string",
+        "enum": ["header", "photo", "about-me", "contact", "news"],
+        "description": "Section name"
+      },
+      "template": {
+        "type": "string",
+        "description": "HTML template of the section"
+      },
+      "data": {
+        "type": "object",
+        "description": "Section data",
+        "properties": {
+          "name": {
+            "type": "string",
+            "description": "Person name"
+          },
+          "position": {
+            "type": "string",
+            "description": "Person position"
+          },
+          "src": {
+            "type": "string",
+            "description": "Photo source"
+          },
+          "alt": {
+            "type": "string",
+            "description": "Photo alt description"
+          },
+          "title": {
+            "type": "string",
+            "description": "Section title"
+          },
+          "abstract": {
+            "type": "string",
+            "description": "Person abstract"
+          },
+          "keywords": {
+            "type": "string",
+            "description": "Keywords"
+          },
+          "social_media": {
+            "type": "object",
+            "description": "Social media details",
+            "required": ["template", "data"],
+            "properties": {
+              "template": {
+                "type": "string",
+                "description": "HTML template of a social media"
+              },
+              "data": {
+                "type": "object",
+                "description": "Social media data",
+                "required": ["target", "icon"],
+                "properties": {
+                  "target": {
+                    "type": "array",
+                    "description": "Social media target link",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "icon": {
+                    "type": "array",
+                    "description": "Social media icon",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "address": {
+            "type": "string",
+            "description": "Person address"
+          },
+          "room": {
+            "type": "string",
+            "description": "Person room"
+          },
+          "email": {
+            "type": "string",
+            "description": "Person email"
+          },
+          "phone": {
+            "type": "string",
+            "description": "Person phone"
+          },
+          "number": {
+            "type": "integer",
+            "description": "News number"
+          },
+          "news": {
+            "type": "object",
+            "description": "News",
+            "required": ["template", "data"],
+            "properties": {
+              "template": {
+                "type": "string",
+                "description": "HTML template a news"
+              },
+              "data": {
+                "type": "object",
+                "description": "News data",
+                "required": ["date", "content"],
+                "properties": {
+                  "date": {
+                    "type": "array",
+                    "description": "News dates",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "content": {
+                    "type": "array",
+                    "description": "News contents",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "allOf": [
+      {
+        "if": {"properties": {"section": {"const": "header"}}},
+        "then": {"properties": {"data": {"required": ["name", "position"]}}}
+      },
+      {
+        "if": {"properties": {"section": {"const": "photo"}}},
+        "then": {"properties": {"data": {"required": ["src", "alt"]}}}
+      },
+      {
+        "if": {"properties": {"section": {"const": "about-me"}}},
+        "then": {"properties": {"data": {"required": ["title", "abstract", "keywords", "social_media"]}}}
+      },
+      {
+        "if": {"properties": {"section": {"const": "contact"}}},
+        "then": {"properties": {"data": {"required": ["title", "address", "room", "email", "phone"]}}}
+      },
+      {
+        "if": {"properties": {"section": {"const": "news"}}},
+        "then": {"properties": {"data": {"required": ["title", "number", "news"]}}}
+      }
+    ]
+  }
+}

@@ -1,0 +1,113 @@
+{
+  "title": "Teaching schema",
+  "type": "array",
+  "description": "List of sections",
+  "items": {
+    "type": "object",
+    "description": "Section detail",
+    "required": ["section", "template", "data"],
+    "properties": {
+      "section": {
+        "type": "string",
+        "enum": ["institutions", "courses"],
+        "description": "Section name"
+      },
+      "template": {
+        "type": "string",
+        "description": "HTML template of the section"
+      },
+      "data": {
+        "type": "object",
+        "description": "Section data",
+        "required": ["title"],
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Section title"
+          },
+          "institutions": {
+            "type": "object",
+            "description": "Institutions details",
+            "required": ["template", "data"],
+            "properties": {
+              "template": {
+                "type": "string",
+                "description": "HTML template of an institution"
+              },
+              "data": {
+                "type": "object",
+                "description": "Institution data",
+                "required": ["date", "place", "department", "grades"],
+                "properties": {
+                  "date": {
+                    "type": "array",
+                    "description": "Institution dates",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "content": {
+                    "type": "array",
+                    "description": "Institution place",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "department": {
+                    "type": "array",
+                    "description": "Institution department",
+                    "items": {
+                      "type": "string"
+                    }
+                  },
+                  "grades": {
+                    "type": "array",
+                    "description": "Institution grades",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          },
+          "courses": {
+            "type": "object",
+            "description": "courses details",
+            "required": ["template", "data"],
+            "properties": {
+              "template": {
+                "type": "string",
+                "description": "HTML template of a course"
+              },
+              "data": {
+                "type": "object",
+                "description": "Course data",
+                "required": ["course"],
+                "properties": {
+                  "course": {
+                    "type": "array",
+                    "description": "Course",
+                    "items": {
+                      "type": "string"
+                    }
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "allOf": [
+      {
+        "if": {"properties": {"section": {"const": "institutions"}}},
+        "then": {"properties": {"data": {"required": ["title", "institutions"]}}}
+      },
+      {
+        "if": {"properties": {"section": {"const": "courses"}}},
+        "then": {"properties": {"data": {"required": ["title", "courses"]}}}
+      }
+    ]
+  }
+}

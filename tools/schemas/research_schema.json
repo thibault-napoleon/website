@@ -1,0 +1,179 @@
+{
+  "title": "Research schema",
+  "type": "array",
+  "description": "List of sections",
+  "items": {
+    "type": "object",
+    "description": "Section detail",
+    "required": ["section", "template", "data"],
+    "properties": {
+      "section": {
+        "type": "string",
+        "enum": ["projects", "students"],
+        "description": "Section name"
+      },
+      "template": {
+        "type": "string",
+        "description": "HTML template of the section"
+      },
+      "data": {
+        "type": "object",
+        "description": "Section data",
+        "required": ["title"],
+        "properties": {
+          "title": {
+            "type": "string",
+            "description": "Section title"
+          },
+          "ongoing": {
+            "$ref": "#/definitions/projects",
+            "description": "Ongoing projects details"
+          },
+          "past": {
+            "$ref": "#/definitions/projects",
+            "description": "Past projects details"
+          },
+          "phds": {
+            "$ref": "#/definitions/students",
+            "description": "Phds details"
+          },
+          "graduated_phds": {
+            "$ref": "#/definitions/students",
+            "description": "Graduated phds details"
+          },
+          "postdocs": {
+            "$ref": "#/definitions/students",
+            "description": "Postdocs details"
+          },
+          "trainees": {
+            "$ref": "#/definitions/students",
+            "description": "Trainees details"
+          }
+        }
+      }
+    },
+    "allOf": [
+      {
+        "if": {"properties": {"section": {"const": "projects"}}},
+        "then": {"properties": {"data": {"required": ["ongoing", "past"]}}}
+      },
+      {
+        "if": {"properties": {"section": {"const": "students"}}},
+        "then": {"properties": {"data": {"required": ["phds", "graduated_phds", "postdocs", "trainees"]}}}
+      }
+    ]
+  },
+  "definitions": {
+    "projects": {
+      "type": "object",
+      "required": ["template", "data"],
+      "properties": {
+        "template": {
+          "type": "string",
+          "description": "HTML template of a project"
+        },
+        "data": {
+          "type": "object",
+          "required": ["name", "date", "content", "role", "collaborations", "fundings"],
+          "description": "Fields of the project",
+          "properties": {
+            "name": {
+              "type": "array",
+              "description": "Project name",
+              "items": {
+                "type": "string"
+              }
+            },
+            "data": {
+              "type": "array",
+              "description": "Project date",
+              "items": {
+                "type": "string"
+              }
+            },
+            "content": {
+              "type": "array",
+              "description": "Project content",
+              "items": {
+                "type": "string"
+              }
+            },
+            "role": {
+              "type": "array",
+              "description": "Role in the project",
+              "items": {
+                "type": "string"
+              }
+            },
+            "collaborations": {
+              "type": "array",
+              "description": "Project collaborations",
+              "items": {
+                "type": "string"
+              }
+            },
+            "fundings": {
+              "type": "array",
+              "description": "Project fundings",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    },
+    "students": {
+      "type": "object",
+      "required": ["template", "data"],
+      "properties": {
+        "template": {
+          "type": "string",
+          "description": "HTML template of a student"
+        },
+        "data": {
+          "type": "object",
+          "required": ["name", "date", "content", "coadvised", "fundings"],
+          "description": "Fields of the student",
+          "properties": {
+            "name": {
+              "type": "array",
+              "description": "Student name",
+              "items": {
+                "type": "string"
+              }
+            },
+            "date": {
+              "type": "array",
+              "description": "Student date",
+              "items": {
+                "type": "string"
+              }
+            },
+            "content": {
+              "type": "array",
+              "description": "Subject",
+              "items": {
+                "type": "string"
+              }
+            },
+            "coadvised": {
+              "type": "array",
+              "description": "Student coadvised",
+              "items": {
+                "type": "string"
+              }
+            },
+            "fundings": {
+              "type": "array",
+              "description": "Student fundings",
+              "items": {
+                "type": "string"
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
