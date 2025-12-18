@@ -3,7 +3,7 @@
  \\Company: ISEN Ouest
  \\Email: thibault.napoleon@isen-ouest.yncrea.fr
  \\Created Date: 16-Sep-2024 - 13:51:38
- \\Last Modified: 19-Nov-2024 - 15:45:40
+ \\Last Modified: 17-Dec-2025 - 20:01:55
 -->
 
 # Thibault Napoléon website
@@ -23,6 +23,10 @@ The website is designed to present my professional profile, including my biograp
   - **publications.json**: Publications data (filled automatically with HAL archives).
   - **research.json**: Research data.
   - **teaching.json**: Teaching data.
+- **tools/**: Contains the tools to validate JSON files.
+  - **schemas/**: The JSON schemas for all parts (JSON) of the website.
+  - **requirements.txt**: The Python packages requirements.
+  - **validate_json.py**: The Python tool to check the validity of the JSON files.
 
 ## Development
 To modify the website content, update the JSON files in the `json/` directory.

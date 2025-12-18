@@ -4,15 +4,14 @@
 # \\Company: ISEN Ouest
 # \\Email: thibault.napoleon@isen-ouest.yncrea.fr
 # \\Created Date: 19-Nov-2025 - 18:49:30
-# \\Last Modified: 19-Nov-2025 - 21:46:11
+# \\Last Modified: 17-Dec-2025 - 19:56:59
 ###
 
 """JSON validator script."""
 
 # Imports.
 import json
-import jsonschema
-import argparse
+import jsonschema  # type: ignore
 import os
 
 
