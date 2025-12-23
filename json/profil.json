@@ -9,7 +9,7 @@
   },
   {
     "section": "photo",
-    "template": "<img src='{src}' alt='{alt}' class=\"img-thumbnail img-responsive center-block\">",
+    "template": "<img src=\"{src}\" alt=\"{alt}\" class=\"img-thumbnail img-responsive center-block\">",
     "data": {
       "src": "imgs/photo.png",
       "alt": "Thibault Napoléon"

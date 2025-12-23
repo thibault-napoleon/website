@@ -3,7 +3,7 @@
  * \\Company: ISEN Ouest
  * \\Email: thibault.napoleon@isen-ouest.yncrea.fr
  * \\Created Date: 16-Oct-2024 - 12:33:39
- * \\Last Modified: 03-Jan-2025 - 16:02:52
+ * \\Last Modified: 23-Dec-2025 - 12:32:34
  */
 
 'use strict';
@@ -16,13 +16,20 @@ const HAL_API_URL = 'https://api.archives-ouvertes.fr/search/' +
   'title_s,citationRef_s,label_s,label_bibtex,seeAlso_s,producedDateY_i&' +
   'sort=producedDate_s desc&rows=1000';
 const MINIMUM_ITEMS = 5;
-
+const DATA = [
+  {'file': 'json/profil.json'},
+  {'file': 'json/bio.json'},
+  {'file': 'json/research.json'},
+  {'file': 'json/publications.json', 'callback': loadHALData},
+  {'file': 'json/teaching.json'}]
+  
 // Load the data.
-loadData('json/profil.json');
-loadData('json/bio.json');
-loadData('json/research.json');
-loadData('json/publications.json', loadHALData);
-loadData('json/teaching.json');
+for (let d of DATA) {
+  if (d.callback)
+    loadData(d.file, d.callback)
+  else
+    loadData(d.file)
+}
 
 // Collapse menu on click (mobile).
 handleMenuCollapse();
@@ -63,7 +70,7 @@ function processHALData(publications, data) {
     'ART': [0, 'journals'],
     'COMM': [1, 'conferences'], 'POSTER': [1, 'conferences'],
     'PATENT': [2, 'patents'],
-    'THESE': [3, 'dissertations'],
+    'THESE': [3, 'dissertations']
   }
 
   // Process the publications.
@@ -73,7 +80,7 @@ function processHALData(publications, data) {
       types[publication.docType_s][1]].data;
     let authors = publication.authFullName_s.join(', ');
     authors = authors.replace(IDENTITY1, '<b><u>' + IDENTITY1 + '</u></b>');
-    authors = authors.replace(IDENTITY2, '<b><u>' + IDENTITY2 + '</u></b>');
+    authors = authors.replace(IDENTITY2, '<b><u>' + IDENTITY1 + '</u></b>');
     current_data.id.push(publication.docid);
     current_data.authors.push(authors);
     current_data.title.push(publication.title_s);
@@ -119,7 +126,6 @@ function processData(data) {
     if (part.data.number != undefined)
       updateVisibility(part.section + '-list', 0);
   }
-
 }
 
 //------------------------------------------------------------------------------
@@ -164,8 +170,7 @@ function updateVisibility(id, value) {
 //--- handleMenuCollapse -------------------------------------------------------
 //------------------------------------------------------------------------------
 // Collapse the menu on click.
-function handleMenuCollapse()
-{
+function handleMenuCollapse() {
   for (let item of document.getElementById('menu').getElementsByTagName('a')) {
     item.addEventListener('click', function () {
       document.getElementById('menu').classList.remove('show');
@@ -179,11 +184,9 @@ function handleMenuCollapse()
 // Set the color scheme.
 // @param mode: the color scheme ('light' or 'dark'). If it is undefined, the
 // media preference is used.
-function setColorScheme(mode)
-{
+function setColorScheme(mode) {
   // Check media preference.
-  if (mode == undefined)
-  {
+  if (mode == undefined) {
     if (window.matchMedia &&
       window.matchMedia('(prefers-color-scheme: dark)').matches)
       mode = 'dark';
@@ -215,8 +218,7 @@ function setColorScheme(mode)
 //--- switchColorScheme --------------------------------------------------------
 //------------------------------------------------------------------------------
 // Switch the color scheme.
-function switchColorScheme()
-{
+function switchColorScheme() {
   setColorScheme(document.getElementsByTagName('body'
     )[0].style.colorScheme == 'dark' ? 'light' : 'dark');
 }
