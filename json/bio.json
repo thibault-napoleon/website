@@ -1,11 +1,11 @@
 [
   {
     "section": "positions",
-    "template": "<h2>{title}</h2>{positions}",
+    "template": "<h2>{title}</h2><ul>{positions}</ul>",
     "data": {
       "title": "Positions",
       "positions": {
-        "template": "<li class=\"ps-3\"><b>{date}:</b> {content}</li>",
+        "template": "<li><b>{date}:</b> {content}</li>",
         "data": {
           "date": [
             "Since 2012",
@@ -25,11 +25,11 @@
   },
   {
     "section": "education",
-    "template": "<h2>{title}</h2>{diplomas}",
+    "template": "<h2>{title}</h2><ul>{diplomas}</ul>",
     "data": {
       "title": "Education",
       "diplomas": {
-        "template": "<li class=\"ps-3\"><b>{date}:</b> {content}</li>",
+        "template": "<li><b>{date}:</b> {content}</li>",
         "data": {
           "date": [
             "2010",
@@ -47,11 +47,11 @@
   },
   {
     "section": "responsibilities",
-    "template": "<h2>{title}</h2>{responsibilities}",
+    "template": "<h2>{title}</h2><ul>{responsibilities}</ul>",
     "data": {
       "title": "Responsibilities",
       "responsibilities": {
-        "template": "<li class=\"ps-3\"><b>{date}:</b> {content}</li>",
+        "template": "<li><b>{date}:</b> {content}</li>",
         "data": {
           "date": [
             "Since 11/2023",
@@ -69,11 +69,11 @@
   },
   {
     "section": "reviewer",
-    "template": "<h2>{title}</h2>{names}",
+    "template": "<h2>{title}</h2><ul>{names}</ul>",
     "data": {
       "title": "Reviewer",
       "names": {
-        "template": "<li class=\"ps-3\">{name}</li>",
+        "template": "<li>{name}</li>",
         "data": {
           "name": [
             "International Journal of Computer Vision",

@@ -1,11 +1,11 @@
 [
   {
     "section": "projects",
-    "template": "<h2>{title}</h2><b class=\"ps-0\">Ongoing:</b>{ongoing}<b class=\"ps-0 mt-3\">Past:</b>{past}",
+    "template": "<h2>{title}</h2><b class=\"ps-0\">Ongoing:</b><ul>{ongoing}</ul><b class=\"ps-0 mt-3\">Past:</b><ul>{past}</ul>",
     "data": {
       "title": "Projects and collaborations",
       "ongoing": {
-        "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Role:</b> {role}. <b>In collaboration with</b> {collaborations}. <b>Fundings:</b> {fundings}.</li>",
+        "template": "<li><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Role:</b> {role}. <b>In collaboration with</b> {collaborations}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
             "CESAR",
@@ -46,7 +46,7 @@
         }
       },
       "past": {
-        "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Role:</b> {role}. <b>In collaboration with</b> {collaborations}. <b>Fundings:</b> {fundings}.</li>",
+        "template": "<li><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Role:</b> {role}. <b>In collaboration with</b> {collaborations}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
             "DUVO",
@@ -126,11 +126,11 @@
   },
   {
     "section": "students",
-    "template": "<h2>{title}</h2><b class=\"ps-0\">Current PhD students:</b>{phds}<b class=\"ps-0 mt-3\">Graduated PhDs:</b>{graduated_phds}<b class=\"ps-0 mt-3\">Postdocs and engineers:</b>{postdocs}<b class=\"ps-0 mt-3\">Master students:</b>{trainees}",
+    "template": "<h2>{title}</h2><b class=\"ps-0\">Current PhD students:</b><ul>{phds}</ul><b class=\"ps-0 mt-3\">Graduated PhDs:</b><ul>{graduated_phds}</ul><b class=\"ps-0 mt-3\">Postdocs and engineers:</b><ul>{postdocs}</ul><b class=\"ps-0 mt-3\">Master students:</b><ul>{trainees}</ul>",
     "data": {
       "title": "Students supervision",
       "phds": {
-        "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}.  <b>Co-advised with</b> {coadvised}. <b>Fundings:</b> {fundings}.</li>",
+        "template": "<li><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Co-advised with</b> {coadvised}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
             "Antonio Al Makdissi",
@@ -155,7 +155,7 @@
         }
       },
       "graduated_phds": {
-        "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Co-advised with</b> {coadvised}. <b>Fundings:</b> {fundings}.</li>",
+        "template": "<li><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Co-advised with</b> {coadvised}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
             "Ikram Eddahmani",
@@ -185,7 +185,7 @@
         }
       },
       "postdocs": {
-        "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Co-supervised with</b> {coadvised}. <b>Fundings:</b> {fundings}.</li>",
+        "template": "<li><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Co-supervised with</b> {coadvised}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
             "Pedro Sotto",
@@ -215,7 +215,7 @@
         }
       },
       "trainees": {
-        "template": "<li class=\"ps-4\"><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Co-supervised with</b> {coadvised}. <b>Fundings:</b> {fundings}.</li>",
+        "template": "<li><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Co-supervised with</b> {coadvised}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
             "Wissal Fnaich",
