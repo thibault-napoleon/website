@@ -8,7 +8,7 @@
         "template": "<li><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Role:</b> {role}. <b>In collaboration with</b> {collaborations}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
-            "CESAR",
+            "<a href=\"https://anrcesar.github.io\">CESAR</a>",
             "TERIAD",
             "AFRUMAR",
             "IoT chair"
