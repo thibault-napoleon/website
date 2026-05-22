@@ -8,38 +8,38 @@
         "template": "<li><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Role:</b> {role}. <b>In collaboration with</b> {collaborations}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
+            "EPIC",
             "<a href=\"https://anrcesar.github.io\">CESAR</a>",
-            "TERIAD",
             "AFRUMAR",
             "IoT chair"
           ],
           "date": [
+            "2026",
             "2025-2029",
-            "2024-2025",
             "2023-2026",
             "Since 2006"
           ],
           "content": [
+            "Preprocessing Benefits in Underwater Imagery for Convolutional Approaches",
             "Embedded multi-sourCE analySis for the exploration of the underwAter enviRonment",
-            "Preservation of territories by artificial intelligence embedded in collaborative heterogeneous drones",
             "Frugal and compressed learning for the interpretation of underwater scenes",
             "Internet of Things for the study of human activity in constrained environments"
           ],
           "role": [
-            "Member",
             "Coordinator",
+            "Member",
             "Coordinator",
             "Member"
           ],
           "collaborations": [
+            "<a href=\"https://www.thalesgroup.com\">Thales</a>",
             "<a href=\"https://www.ifremer.fr\">Ifremer</a>, <a href=\"https://www.thalesgroup.com\">Thales</a>, <a href=\"https://celadon.blue\">Celadon</a> and <a href=\"http://www.ls2n.fr\">LS2N</a>",
-            "<a href=\"https://isen-brest.fr/labisen/equipes-de-recherche/equipe-autorob/\">AutoROB</a>",
             "<a href=\"https://www.thalesgroup.com\">Thales</a>",
             "<a href=\"https://isen-mediterranee.fr\">ISEN Méditerranée</a> and <a href=\"https://www.eps.fr\">EPS</a>"
           ],
           "fundings": [
+            "GIS Cormorant",
             "ANR",
-            "Département du Finistere",
             "ANRT",
             "Chaire IoT"
           ]
@@ -49,6 +49,7 @@
         "template": "<li><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Role:</b> {role}. <b>In collaboration with</b> {collaborations}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
+            "TERIAD",
             "DUVO",
             "MOOV",
             "CAMOR",
@@ -61,6 +62,7 @@
             "FFN"
           ],
           "date": [
+            "2024-2025",
             "2025",
             "2024",
             "2024",
@@ -74,6 +76,7 @@
           ],
           "content": [
             "USV Docking Strategy Using Computer Vision",
+            "Preservation of territories by artificial intelligence embedded in collaborative heterogeneous drones",
             "Oceanic Optical Measurement of the Speed of an Autonomous Underwater Vehicle",
             "Embedded computer vision for seal detection",
             "Data processed by Artificial Intelligence for the Valorization of Naval Operations",
@@ -87,6 +90,7 @@
           "role": [
             "Member",
             "Coordinator",
+            "Coordinator",
             "Member",
             "Member",
             "Member",
@@ -98,6 +102,7 @@
           ],
           "collaborations": [
             "<a href=\"https://www.thalesgroup.com\">Thales</a>",
+            "<a href=\"https://isen-brest.fr/labisen/equipes-de-recherche/equipe-autorob/\">AutoROB</a>",
             "<a href=\"https://www.thalesgroup.com\">Thales</a>",
             "<a href=\"https://www.ofb.gouv.fr\">Office français de la biodiversité</a>",
             "<a href=\"https://www.thalesgroup.com\">Thales</a> and <a href=\"\" onclick=\"return false;\">Kopadia</a>",
@@ -110,6 +115,7 @@
           ],
           "fundings": [
             "GIS Cormorant",
+            "Département du Finistere",
             "GIS Cormorant",
             "OFB",
             "DGA",
@@ -218,6 +224,7 @@
         "template": "<li><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Co-supervised with</b> {coadvised}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
+            "Hugo Marc",
             "Wissal Fnaich",
             "Aimée Boukamba",
             "Simon Fournier",
@@ -233,6 +240,7 @@
             "Djamel Benarab"
           ],
           "date": [
+            "2026",
             "2025",
             "2025",
             "2024",
@@ -248,6 +256,7 @@
             "2013"
           ],
           "content": [
+            "Preprocessing Benefits in Underwater Imagery for Convolutional Approaches",
             "Condition Aware Multimodal Semantic Segmentation Adapted to Underwater Scene Understanding",
             "USV Docking Strategy Using Computer Vision (DUVO)",
             "Oceanic Optical Measurement of the Speed of an Autonomous Underwater Vehicle",
@@ -263,21 +272,23 @@
             "Automatic swimmer tracking based on optical correlation techniques"
           ],
           "coadvised": [
-            "<a href=\"https://scholar.google.ca/citations?hl=en&user=N8Xv4GQAAAAJ\">M. Jridi</a>",
-            "<a href=\"https://scholar.google.com/citations?user=N48nTrUAAAAJ&hl=fr\">M. Aron</a>",
-            "<a href=\"https://scholar.google.ca/citations?hl=en&user=WxXWon4AAAAJ\">A. Arnold</a>",
-            "<a href=\"https://scholar.google.ca/citations?user=acAw9KAAAAAJ&hl=en\">A. Karine</a>",
+            "<a href=\"https://scholar.google.com/citations?user=ImThCtMAAAAJ&hl=en\">A. Belmouhcine</a>",
+            "<a href=\"https://scholar.google.com/citations?user=N8Xv4GQAAAAJ&hl=en\">M. Jridi</a>",
+            "<a href=\"https://scholar.google.com/citations?user=N48nTrUAAAAJ&hl=en\">M. Aron</a>",
+            "<a href=\"https://scholar.google.com/citations?user=WxXWon4AAAAJ&hl=en\">A. Arnold</a>",
+            "<a href=\"https://scholar.google.com/citations?user=acAw9KAAAAAJ&hl=en\">A. Karine</a>",
             "<a href=\"\" onclick=\"return false;\">F. Florin</a>",
             "<a href=\"\" onclick=\"return false;\">F. Florin</a>",
             "<a href=\"\" onclick=\"return false;\">C. Vignaud</a>",
             "<a href=\"\" onclick=\"return false;\">C. Vignaud</a>",
             "<a href=\"\" onclick=\"return false;\">C. Vignaud</a>",
-            "<a href=\"https://scholar.google.ca/citations?hl=en&user=N8Xv4GQAAAAJ\">M. Jridi</a>",
-            "<a href=\"https://scholar.google.ca/citations?hl=en&user=331l9OwAAAAJ\">A. Al-Falou</a>",
-            "<a href=\"https://scholar.google.ca/citations?hl=en&user=N8Xv4GQAAAAJ\">M. Jridi</a>",
-            "<a href=\"https://scholar.google.ca/citations?hl=en&user=331l9OwAAAAJ\">A. Al-Falou</a>"
+            "<a href=\"https://scholar.google.com/citations?user=N8Xv4GQAAAAJ&hl=en\">M. Jridi</a>",
+            "<a href=\"https://scholar.google.com/citations?user=331l9OwAAAAJ&hl=en\">A. Al-Falou</a>",
+            "<a href=\"https://scholar.google.com/citations?user=N8Xv4GQAAAAJ&hl=en\">M. Jridi</a>",
+            "<a href=\"https://scholar.google.com/citations?user=331l9OwAAAAJ&hl=en\">A. Al-Falou</a>"
           ],
           "fundings": [
+            "GIS Cormorant",
             "Nantes Métropole",
             "GIS Cormorant",
             "GIS Cormorant",
