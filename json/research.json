@@ -8,36 +8,42 @@
         "template": "<li><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Role:</b> {role}. <b>In collaboration with</b> {collaborations}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
+            "Dragonfly",
             "EPIC",
             "<a href=\"https://anrcesar.github.io\">CESAR</a>",
             "AFRUMAR",
             "IoT chair"
           ],
           "date": [
+            "2026-2028",
             "2026",
             "2025-2029",
             "2023-2026",
             "Since 2006"
           ],
           "content": [
+            "Solutions for Monitoring Mobility Flows and Enhancing Active Travel Safety",
             "Preprocessing Benefits in Underwater Imagery for Convolutional Approaches",
             "Embedded multi-sourCE analySis for the exploration of the underwAter enviRonment",
             "Frugal and compressed learning for the interpretation of underwater scenes",
             "Internet of Things for the study of human activity in constrained environments"
           ],
           "role": [
+            "Member",
             "Coordinator",
             "Member",
             "Coordinator",
             "Member"
           ],
           "collaborations": [
+            "<a href=\"https://www.eco-compteur.com\">Eco-Compteur</a> and <a href=\"https://www.nusense.fr\">NUsense</a>",
             "<a href=\"https://www.thalesgroup.com\">Thales</a>",
             "<a href=\"https://www.ifremer.fr\">Ifremer</a>, <a href=\"https://www.thalesgroup.com\">Thales</a>, <a href=\"https://celadon.blue\">Celadon</a> and <a href=\"http://www.ls2n.fr\">LS2N</a>",
             "<a href=\"https://www.thalesgroup.com\">Thales</a>",
             "<a href=\"https://isen-mediterranee.fr\">ISEN Méditerranée</a> and <a href=\"https://www.eps.fr\">EPS</a>"
           ],
           "fundings": [
+            "BPI France",
             "GIS Cormorant",
             "ANR",
             "ANRT",
@@ -194,26 +200,31 @@
         "template": "<li><b><span class=\"color2\">{name}</span> ({date}):</b> {content}. <b>Co-supervised with</b> {coadvised}. <b>Fundings:</b> {fundings}.</li>",
         "data": {
           "name": [
+            "Youssra Manita",
             "Pedro Sotto",
             "Simon Fournier",
             "Mouhamad Chehaitly"
           ],
           "date": [
+            "2026-2028",
             "2024-2025",
             "2024",
             "2020-2022"
           ],
           "content": [
-            "Preservation of territories by artificial intelligence embedded in collaborative heterogeneous drones",
-            "Oceanic Optical Measurement of the Speed of an Autonomous Underwater Vehicle",
-            "High-speed and low-area implementation of tracking algorithm"
+            "Ultra-low-power embedded AI for tracking soft mobility in constrained environments (engineer)",
+            "Preservation of territories by artificial intelligence embedded in collaborative heterogeneous drones (postdoc)",
+            "Oceanic Optical Measurement of the Speed of an Autonomous Underwater Vehicle (engineer)",
+            "High-speed and low-area implementation of tracking algorithm (postdoc)"
           ],
           "coadvised": [
+            "<a href=\"\" onclick=\"return false;\">A. Lalevée</a>",
             "<a href=\"https://scholar.google.ca/citations?hl=en&user=PBqavlYAAAAJ\">H. Fagundes Gasparoto</a> and <a href=\"https://scholar.google.ca/citations?hl=en&user=2PndZqAAAAAJ\">T. Verdu</a>",
             "<a href=\"https://scholar.google.ca/citations?hl=en&user=WxXWon4AAAAJ\">A. Arnold</a>",
             "<a href=\"\" onclick=\"return false;\">A. Lalevée</a>"
           ],
           "fundings": [
+            "BPI France",
             "Département du Finistere",
             "GIS Cormorant",
             "Thales"
