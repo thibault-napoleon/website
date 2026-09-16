@@ -64,6 +64,8 @@
         "template": "<li><b>{date}:</b> {content}</li>",
         "data": {
           "date": [
+            "07/2026",
+            "03/2026",
             "12/2025",
             "10/2025",
             "09/2025",
@@ -83,6 +85,8 @@
             "09/2022"
           ],
           "content": [
+            "<a href=\"https://isen.softy.pro/offers/210189\">Research Engineer</a> and <a href=\"https://isen.softy.pro/offers/210207\">Postdoctoral Researcher</a> positions in embedded computer vision and multimodal data fusion for active mobility and environmental monitoring",
+            "One conference paper accepted at <a href=\"https://miw2026.org\">MIW 2026</a> about vision-language models and multimodal integration for advanced semantic interpretation in marine imaging",
             "Our paper <a href=\"https://www.sciencedirect.com/science/article/pii/S2590005625002619\">Deep functional multiple index models with an application to speech emotion recognition</a> has been accepted to the ELSEVIER Array journal",
             "<a href=\"https://www.linkedin.com/in/antonio-al-makdissi/\">Antonio Al Makdissi</a> starts his PhD on contribution of multimodal artificial intelligence to the analysis of underwater environmental data (<a href=\"https://anrcesar.github.io\">CESAR</a> ANR project)",
             "One conference paper accepted at <a href=\"https://www.icrcv.org/\">ICRCV 2025</a> about condition aware multimodal semantic segmentation adapted to underwater scene understanding",
