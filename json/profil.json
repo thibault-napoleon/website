@@ -64,6 +64,7 @@
         "template": "<li><b>{date}:</b> {content}</li>",
         "data": {
           "date": [
+            "11/2026",
             "07/2026",
             "03/2026",
             "12/2025",
@@ -85,6 +86,7 @@
             "09/2022"
           ],
           "content": [
+            "<a href=\"https://isen.softy.pro/offers/225895\">Associate Professor position</a> with research on robotics and teaching in electronics and robotics",
             "<a href=\"https://isen.softy.pro/offers/210189\">Research Engineer</a> and <a href=\"https://isen.softy.pro/offers/210207\">Postdoctoral Researcher</a> positions in embedded computer vision and multimodal data fusion for active mobility and environmental monitoring",
             "One conference paper accepted at <a href=\"https://miw2026.org\">MIW 2026</a> about vision-language models and multimodal integration for advanced semantic interpretation in marine imaging",
             "Our paper <a href=\"https://www.sciencedirect.com/science/article/pii/S2590005625002619\">Deep functional multiple index models with an application to speech emotion recognition</a> has been accepted to the ELSEVIER Array journal",
